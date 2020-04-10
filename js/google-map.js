@@ -1,62 +1,78 @@
+function initGoogleMap()
+	{
+		var myLatlng = new google.maps.LatLng(34.043238,-118.258338);
+    	var mapOptions = 
+    	{
+    		center: myLatlng,
+	       	zoom: 13,
+			mapTypeId: google.maps.MapTypeId.ROADMAP,
+			draggable: true,
+			scrollwheel: false,
+			zoomControl: true,
+			zoomControlOptions:
+			{
+				position: google.maps.ControlPosition.RIGHT_CENTER
+			},
+			mapTypeControl: false,
+			scaleControl: false,
+			streetViewControl: false,
+			rotateControl: false,
+			fullscreenControl: true,
+			styles:[]
+    	}
 
-var google;
+    	// Initialize a map with options
+    	map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    	map.panBy(0, 0);
 
-function init() {
-    // Basic options for a simple Google Map
-    // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-    // var myLatlng = new google.maps.LatLng(40.71751, -73.990922);
-    var myLatlng = new google.maps.LatLng(40.69847032728747, -73.9514422416687);
-    // 39.399872
-    // -8.224454
-    
-    var mapOptions = {
-        // How zoomed in you want the map to start at (always required)
-        zoom: 7,
+    	// Use an image for a marker
+		// var image = 'images/map_marker.png';
+		var image = 
+		{
+			url:'images/marker.png',
+			size: new google.maps.Size(230, 150),
+			anchor: new google.maps.Point(206, 125) //setting the anchor for larger icons
+		};
 
-        // The latitude and longitude to center the map (always required)
-        center: myLatlng,
+		var imageSmall =
+		{
+			url:'images/dot.png',
+			size: new google.maps.Size(54, 54),
+			anchor: new google.maps.Point(27, 27) //setting the anchor for larger icons
+		};
 
-        // How you would like to style the map. 
-        scrollwheel: false,
-        styles: [
-            {
-                "featureType": "administrative.country",
-                "elementType": "geometry",
-                "stylers": [
-                    {
-                        "visibility": "simplified"
-                    },
-                    {
-                        "hue": "#ff0000"
-                    }
-                ]
-            }
-        ]
-    };
+		var marker = new google.maps.Marker(
+		{
+			position: new google.maps.LatLng(34.043238,-118.258338),
+			map: map
+		});
 
-    
+		if($(window).width() < 720)
+    	{
+    		marker.setIcon(imageSmall);
+    	}
+    	else
+    	{
+    		map.panBy(75, 0);
+    		marker.setIcon(image);
+    	}
 
-    // Get the HTML DOM element that will contain your map 
-    // We are using a div with id="map" seen below in the <body>
-    var mapElement = document.getElementById('map');
-
-    // Create the Google Map using out element and options defined above
-    var map = new google.maps.Map(mapElement, mapOptions);
-    
-    var addresses = ['New York'];
-
-    for (var x = 0; x < addresses.length; x++) {
-        $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+addresses[x]+'&sensor=false', null, function (data) {
-            var p = data.results[0].geometry.location
-            var latlng = new google.maps.LatLng(p.lat, p.lng);
-            new google.maps.Marker({
-                position: latlng,
-                map: map,
-                icon: 'images/loc.png'
-            });
-
-        });
-    }
-    
-}
-google.maps.event.addDomListener(window, 'load', init);
+		// Re-center map after window resize
+		google.maps.event.addDomListener(window, 'resize', function()
+		{
+			setTimeout(function()
+			{
+				google.maps.event.trigger(map, "resize");
+				map.setCenter(myLatlng);
+				if($(window).width() < 720)
+		    	{
+		    		marker.setIcon(imageSmall);
+		    	}
+		    	else
+		    	{
+		    		map.panBy(75, 0);
+		    		marker.setIcon(image);
+		    	}
+			}, 1400);
+		});
+	}
