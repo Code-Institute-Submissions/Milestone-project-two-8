@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    
+
   </head>
   <body>
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -127,8 +129,21 @@
           
           </div>
 
-          <div class="col-md-6 d-flex">
-          	<div id="map" class="bg-white"></div>
+          
+          	
+				<!-- Google Map -->
+
+				<div class="col-md-6 d-flex">
+					<div id="google_map">
+						<div class="map_container">
+							<div id="map"></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
           </div>
         </div>
       </div>
@@ -217,7 +232,7 @@
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOTSfXO72Wzf7FhIDXLewRoisMdNRPN9w&callback=initGoogleMap"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
     
