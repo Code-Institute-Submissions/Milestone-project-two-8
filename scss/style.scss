@@ -1017,15 +1017,30 @@ textarea.form-control {
 }
 
 // Map
+/*********************************
+ Contact Map
+*********************************/
 
-#map {
-	// height: 400px;
-	width: 100%;
-	@include media-breakpoint-down(md) {
-		height: 300px;
-	}
+.contact_map
+{
+	margin-top: 86px;
 }
-
+#google_map
+{
+	width: 100%;
+	height: 532px;
+}
+.map_container
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#map
+{
+	width: 100%;
+	height: calc(100% + 30px);
+}
 
 @-webkit-keyframes pulse {
   0% {
