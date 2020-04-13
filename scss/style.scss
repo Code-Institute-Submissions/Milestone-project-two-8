@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5,
 		// 	background: $white;
 		// }
 	}
-
+// navbar
 	.navbar-brand {
 		color: $white;
 		padding-top: 1.5rem;
@@ -333,7 +333,7 @@ h1, h2, h3, h4, h5,
 	}
 }
 
-
+// end of navbar
 //search
 .search-wrap-1{
 	position: relative;
@@ -428,7 +428,7 @@ h1, h2, h3, h4, h5,
 .bg-primary{
 	background: $primary;
 }
-
+//end of search//
 
 //BUTTON
 .btn {
@@ -542,6 +542,9 @@ h1, h2, h3, h4, h5,
 		width: 100%;
 		height: 270px;
 	}
+     img:hover {
+  transform: scaleX(-1);
+} 
 	.text{
 		width: 100%;
 		position: relative;
@@ -610,6 +613,9 @@ h1, h2, h3, h4, h5,
 			color: $primary;
 		}
 	}
+     .icon:hover {
+  transform: scaleX(-1);
+} 
 	.media-body{
 		h3{
 			font-size: 18px;
