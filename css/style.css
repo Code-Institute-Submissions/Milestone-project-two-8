@@ -116,8 +116,9 @@ body {
   background-image:  url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-5.jpg");
 }
 .slider3d__item:nth-child(2) {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-2.jpg");
+  background-image: url("https://i0.wp.com/s1.uphinh.org/2020/04/14/chris-henry-a5L5ShONdF0-unsplash.jpg");
 }
+
 .slider3d__item:nth-child(3) {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-3.jpg");
 }
@@ -136,7 +137,7 @@ body {
   text-align: center;
   font-size: 12rem;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: inherit;
   color: #1f0707;
   -webkit-transform: translateZ(3rem) scale(0.5);
           transform: translateZ(3rem) scale(0.5);
