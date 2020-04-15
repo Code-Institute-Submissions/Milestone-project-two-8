@@ -1,54 +1,6 @@
-/*!
- * Bootstrap v4.2.1 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-:root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #007bff;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
 
-html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
-
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block; }
-
+/*styles added by me */
 /*hero image*/
 *, *:before, *:after {
   box-sizing: border-box;
@@ -304,11 +256,14 @@ body {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
+
   .single-feature .feature-thumb {
     position: relative;
     overflow: hidden;
     background: #f7f9fd;
-    padding: 40px; }
+    padding-top: 10px; 
+    }
+
   .single-feature .feature-details h5 {
     font-size: 21px;
     margin-bottom: 15px; }
@@ -321,7 +276,132 @@ body {
 .img:hover {
     border: 7px solid transparent;
      }
+/*testimony*/
 
+*{
+  margin: 0;
+  padding: 0;
+
+ box-sizing: border-box;
+
+}
+
+.testimonial-section{
+  background: #f1f1f1;
+  padding: 80px 0;
+  text-align: center;
+  background-image: url(images/bg_3.jpg);
+}
+
+.inner-width{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.testimonial-section h1{
+
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.testimonial-pics{
+  padding: 40px 0;
+}
+
+.testimonial-pics img{
+  width: 90px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 20px;
+  filter: grayscale(100%);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.testimonial-pics img:hover, .testimonial-pics img.active{
+  filter: none;
+}
+
+
+.testimonial-contents{
+  max-width: 600px;
+  margin: auto;
+}
+
+.testimonial{
+  display: none;
+}
+
+.testimonial.active{
+  display: block;
+}
+
+.testimonial p{
+  color: #5c5c5c;
+  margin-bottom: 20px;
+}
+
+.testimonial .description{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 15px;
+}
+
+/*end of testimony*/
+
+/*!
+ * Bootstrap v4.2.1 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block; }
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
