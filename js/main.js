@@ -298,6 +298,7 @@
 	  'autoclose': true
 	});
 })(jQuery);
+
 //parallax
 (function() {
   var rotatingSlider = function(selector, options) {
@@ -575,3 +576,14 @@ $(document).ready(function() {
 });
 
 //end of 3d slider
+
+//testimony
+$('.testimonial-pics img').click(function(){
+        $(".testimonial-pics img").removeClass("active");
+        $(this).addClass("active");
+
+        $(".testimonial").removeClass("active");
+        $("#"+$(this).attr("alt")).addClass("active");
+      });
+
+//end of testimony
