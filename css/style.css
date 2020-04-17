@@ -295,12 +295,13 @@ body {
 /* gallary-header  */
 .gallary-header h2{
     position:relative;
-    color:#565a5c;  
+    color:#040505;  
     font-size:30px;
-    font-weight:500;
+    font-weight:600;
     text-transform:capitalize;
     font-family: 'Poppins', sans-serif;
     padding-bottom:14px;
+    padding-top: 12px;
 }
 .gallary-header p{
     position:relative;
