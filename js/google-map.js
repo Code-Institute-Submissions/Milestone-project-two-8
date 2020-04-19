@@ -2,7 +2,7 @@
 var google;
 
 function init() {
-    var myLatlng = new google.maps.LatLng(40.69847032728747, -73.9514422416687);   
+    var myLatlng = new google.maps.LatLng( 59.334591, 18.063240);   
     var mapOptions = {
         
         zoom: 7,
@@ -17,7 +17,7 @@ function init() {
    
     var map = new google.maps.Map(mapElement, mapOptions);
     
-    var addresses = ['New York'];
+    var addresses = ['Stockholm'];
 
     for (var x = 0; x < addresses.length; x++) {
         $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+addresses[x]+'&sensor=false', null, function (data) {
