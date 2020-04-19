@@ -445,14 +445,14 @@ h1, h2, h3, h4, h5,
 	&.btn-primary {
 		background: $primary !important;
 		border: 3px solid $primary !important;
-		color: $white !important;
+		color: black;
 		&:hover {
 			border: 1px solid $primary;
 			background: transparent;
 			color :$primary;
 		}
 		&.btn-outline-primary {
-			border: 1px solid $primary;
+			border: 3px solid $primary;
 			background: transparent;
 			color :$primary;
 			&:hover {
