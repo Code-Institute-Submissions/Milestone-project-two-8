@@ -443,8 +443,8 @@ h1, h2, h3, h4, h5,
 		outline: none;
 	}
 	&.btn-primary {
-		background: $primary !important;
-		border: 3px solid $primary !important;
+		background: $primary ;
+		border: 3px solid $primary ;
 		color: black;
 		&:hover {
 			border: 1px solid $primary;
@@ -463,9 +463,9 @@ h1, h2, h3, h4, h5,
 		}
 	}
 	&.btn-secondary {
-		background: $secondary !important;
-		border: 1px solid $secondary !important;
-		color: $white !important;
+		background: $secondary ;
+		border: 1px solid $secondary ;
+		color: $white ;
 		&:hover {
 			border: 1px solid $secondary;
 			background: transparent;
