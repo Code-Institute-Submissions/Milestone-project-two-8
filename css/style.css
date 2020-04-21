@@ -65,20 +65,20 @@ body {
           transform-style: preserve-3d;
 }
 .slider3d__item:nth-child(1) {
-  background-image:  url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-5.jpg");
+  background-image:  url("https://i0.wp.com/s1.uphinh.org/2020/04/22/paul-gilmore-mqO0Rf-PUMs-unsplash.jpg");
 }
 .slider3d__item:nth-child(2) {
   background-image: url("https://i0.wp.com/s1.uphinh.org/2020/04/14/chris-henry-a5L5ShONdF0-unsplash.jpg");
 }
 
 .slider3d__item:nth-child(3) {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-3.jpg");
+  background-image: url("https://i0.wp.com/s1.uphinh.org/2020/04/22/harshil-gudka-noelDNmA2_U-unsplash.jpg");
 }
 .slider3d__item:nth-child(4) {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-1.jpg");
+  background-image: url("https://i0.wp.com/s1.uphinh.org/2020/04/22/joonyeop-baek-1kf69eE7VR4-unsplash.jpg");
 }
 .slider3d__item:nth-child(5) {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-4.jpg");
+  background-image: url("https://pasteboard.co/J4TzZB1.jpg");
 }
 .slider3d__heading {
   position: absolute;
@@ -119,8 +119,8 @@ body {
   position: absolute;
   right: 0;
   top: 50%;
-  width: 15rem;
-  height: 7rem;
+  width: 11rem;
+  height: 6rem;
   margin-top: -3.5rem;
   -webkit-perspective-origin: 100% 50%;
           perspective-origin: 100% 50%;
@@ -148,7 +148,7 @@ body {
   line-height: 7rem;
   text-transform: uppercase;
   font-weight: bold;
-  color: #fff;
+  color: white;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
