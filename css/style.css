@@ -280,6 +280,147 @@ body {
     
      }
 
+     /*top destinations*/
+
+     @import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #E55D87;
+  background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);
+  background: linear-gradient(to right, #5FC3E4, #E55D87);
+}
+
+img {
+  max-height: 100%;
+  width: 100%;
+}
+
+h2, p, button {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.container-cards {
+  width: 300px;
+  height: 500px;
+  margin: 80px auto;
+  position: relative;
+}
+
+.container-cards-surface {
+  position: relative;
+}
+
+.container-cards-front-image {
+  height: 200px;
+  width: 100%;
+  clip-path: ellipse(200px 150px at 50% 20%);
+}
+
+.container-cards-front-image img {
+  object-fit: cover;
+  object-position: 50% 60%;
+}
+
+.container-cards-front-content {
+  padding: 10px 30px;
+}
+.container-cards-front-content h2, .container-cards-front-content p {
+  color: #424242;
+}
+.container-cards-front-content p {
+  font-size: 14px;
+}
+
+.container-cards-front-label {
+  color: #ffffff;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 10px 30px;
+  background: #c62828;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 13px;
+  -webkit-box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.32);
+  box-shadow: 10px 10px 13px -6px rgba(0, 0, 0, 0.32);
+}
+
+.container-cards-front-button {
+  text-align: center;
+}
+.container-cards-front-button button {
+  border: none;
+  background: #ff6e7f;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px 5px;
+  width: 100px;
+  cursor: pointer;
+  -webkit-transition: -webkit-filter 1s ease-in;
+  transition: filter 1s ease-in;
+}
+.container-cards-front-button button:hover {
+  background: #ff6476;
+}
+
+.container-cards-surface {
+  height: 500px;
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+.container-cards-surface {
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.container-cards-back {
+  transform: rotateY(180deg);
+  background-image: url("https://i0.wp.com/s1.uphinh.org/2020/04/23/timur-kozmenko-zaS-muERkGQ-unsplash-1.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+
+
+
+.container-cards-back .container-cards-back-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.container-cards-back h2 {
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 5px;
+  font-size: 60px;
+  font-weight: 700;
+  transform: rotate(-45deg);
+}
+
+.container-cards:hover .container-cards-front {
+  transform: rotateY(180deg);
+}
+.container-cards:hover .container-cards-back {
+  transform: rotateY(0);
+}
+
+
      /*-------------------------------------
          Gallery
 --------------------------------------*/
