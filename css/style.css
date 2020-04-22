@@ -342,7 +342,7 @@ h2, p, button {
 }
 
 .container-cards-front-label {
-  color: #ffffff;
+  color: white;
   position: absolute;
   right: 10px;
   top: 10px;
@@ -377,7 +377,7 @@ h2, p, button {
 
 .container-cards-surface {
   height: 500px;
-  background: #ffffff;
+  background: white;
   width: 100%;
   height: 100%;
 }
