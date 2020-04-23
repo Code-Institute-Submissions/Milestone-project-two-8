@@ -1,7 +1,7 @@
 
 
 /*styles added by me */
-/*hero image*/
+/*3D hero image*/
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 40;
@@ -18,7 +18,7 @@ html, body {
 }
 @media (max-width: 768px) {
   html, body {
-    font-size: 40%;
+    font-size: 30%;
   }
 }
 
@@ -68,7 +68,7 @@ body {
   background-image:  url("https://i0.wp.com/s1.uphinh.org/2020/04/22/paul-gilmore-mqO0Rf-PUMs-unsplash.jpg");
 }
 .slider3d__item:nth-child(2) {
-  background-image: url("https://i0.wp.com/s1.uphinh.org/2020/04/14/chris-henry-a5L5ShONdF0-unsplash.jpg");
+  background-image: url("https://i0.wp.com/s1.uphinh.org/2020/04/24/michael-fousert-3G1e6AxFcMA-unsplash.jpg");
 }
 
 .slider3d__item:nth-child(3) {
@@ -87,10 +87,10 @@ body {
   width: 100%;
   margin-top: -6rem;
   text-align: center;
-  font-size: 12rem;
+  font-size: 5rem;
   line-height: 1;
   text-transform: inherit;
-  color: #1f0707;
+  color: #2c0c0c;
   -webkit-transform: translateZ(3rem) scale(0.5);
           transform: translateZ(3rem) scale(0.5);
  
