@@ -668,10 +668,11 @@ h2, p, button {
 
 .discount-offer-content h2{
     color:rgb(20, 19, 19);
-    font-size:30px;
+    font-size: 30px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     line-height: 1.4;
+
 }
 
 /* campaign-timer */
@@ -710,12 +711,8 @@ h2, p, button {
     font-family: 'Poppins', sans-serif;
 }/* campaign-timer */
 
-/*.discount-offer-btn*/
-.about-view.discount-offer-btn{
-    color: #040505;
-    max-width: 160px;
-    margin: 0 auto;
-}/*.discount-offer-btn*/
+
+
 
 
 /*testimony*/

@@ -579,7 +579,7 @@ $(document).ready(function() {
 
 
 
-// Countdown timer 
+// Countdown timer ,discount offer
         
         function makeTimer() {
 
