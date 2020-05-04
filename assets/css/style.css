@@ -775,8 +775,8 @@ body {
 }
 
 .testimonial-section{
-  background: white;
-  padding: 80px 0;
+  background: rgb(253, 251, 251);
+  padding: 10px 0;
   text-align: center;
   background-image: url(images/bg_3.jpg);
 }
