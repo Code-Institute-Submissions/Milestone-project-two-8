@@ -5,9 +5,9 @@ function init() {
     var myLatlng = new google.maps.LatLng( 59.334591, 18.063240);   
     var mapOptions = {
         
-        zoom: 7,
+        zoom: 9,
         center: myLatlng,
-        scrollwheel: false,
+        scrollwheel: true,
         
     };
 
@@ -20,13 +20,13 @@ function init() {
     var addresses = ['Stockholm'];
 
     for (var x = 0; x < addresses.length; x++) {
-        $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+addresses[x]+'&sensor=false', null, function (data) {
+        $.getJSON('https://maps.googleapis.com/maps/api/geocode/json?address=Stockholm&key=AIzaSyB-nNMm3QeOUilp90E8kibDufs-SuoIgak', null, function (data) {
             var p = data.results[0].geometry.location
             var latlng = new google.maps.LatLng(p.lat, p.lng);
             new google.maps.Marker({
                 position: latlng,
                 map: map,
-                icon: 'images/loc.png'
+                icon: 'assets/images/loc.png'
             });
 
         });
