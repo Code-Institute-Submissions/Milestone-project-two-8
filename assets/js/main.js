@@ -625,7 +625,6 @@ $('.testimonial-pics img').hover(function(){
 //end of testimony
 
 //maps
-
 var google;
 
    function initMap() {
