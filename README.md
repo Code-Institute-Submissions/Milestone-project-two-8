@@ -5,7 +5,7 @@
 
 This project is designed to create a travel website that has three pages that will demonstrate my ability with using HTML , CSS and JavaScript for my **Milestone Two project for Code Institute**. The project uses core front end technologies along with the Bootstrap front-end framework for added responsivness and for improved cross browser compatability and CSS ,JS libraries gives more details. The site also takes advantage of Google Fonts,icons to allow for more of a modern feeling typography set.
 
-## Table of contents
+## Table of contents 📃
 * [Demo](#demo)
 * [Project Description](#Project-Description)
 * [Technologies](#technologies)
@@ -13,7 +13,7 @@ This project is designed to create a travel website that has three pages that wi
 * [Project Features](#project-features)
 * [Project Strategy](#project-Strategy)
 * [The scope of this project](#the-scope-of-this-project)
-* [UI / UX](#UI/UX)
+* [UI/UX](#UI-UX)
 * [Users stories](#users-stories)
 * [Wireframes](#wireframes)
 * [Testing](#testing)
@@ -46,7 +46,7 @@ This project is a five page HTML,CSS and Javascript travel website project, wher
 * Contact: users can view address on map ,contact number and can send message to us .
 * Footer: Informative footer with some useful social media links that can be used as an alternative way of contacting the website.
 
-## Technologies
+## Technologies 🔗
 
 To complete this project I have used a variety of front end technologies.
 
@@ -129,9 +129,9 @@ To help visualize the website I created wireframes of what the site would look l
 
 ### Mobile Design 📱
 
-![Mobile Wireframe Mock up](https://i0.wp.com/s1.uphinh.org/2020/05/11/mobile-1.png)
-![Mobile Wireframe Mock up](https://i0.wp.com/s1.uphinh.org/2020/05/11/mobile2.png)
-![Mobile Wireframe Mock up](https://i0.wp.com/s1.uphinh.org/2020/05/11/mobile3.png)
+![Mobile Wireframe Mock up](https://i0.wp.com/s1.uphinh.org/2020/05/11/New-Wireframe-1e5aecc4db3c360a0.png)
+![Mobile Wireframe Mock up](https://i0.wp.com/s1.uphinh.org/2020/05/11/New-Wireframe-2.png)
+![Mobile Wireframe Mock up](https://i0.wp.com/s1.uphinh.org/2020/05/11/New-Wireframe-3.png)
 ![Mobile Wireframe Mock up](https://i0.wp.com/s1.uphinh.org/2020/05/11/New-Wireframe-4.png)
 ![Mobile Wireframe Mock up](https://i0.wp.com/s1.uphinh.org/2020/05/11/New-Wireframe-5.png)
 
