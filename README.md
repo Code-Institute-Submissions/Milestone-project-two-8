@@ -268,7 +268,7 @@ This project would not have been possible without the following:
 
 ## Inspiration
 
-* From my 8 year old **Daughter** who always  encourages me with her ideas and suggestions in building project ! 🤔
+* From my 8 year old **Daughter** who always  encourages me with her ideas and suggestions in building this project ! 🤔
 
 
 
