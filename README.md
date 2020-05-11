@@ -13,7 +13,7 @@ This project is designed to create a travel website that has three pages that wi
 * [Project Features](#project-features)
 * [Project Strategy](#project-Strategy)
 * [The scope of this project](#the-scope-of-this-project)
-* [UI/UX](#UI-UX)
+* [UI / UX](#UI-UX)
 * [Users stories](#users-stories)
 * [Wireframes](#wireframes)
 * [Testing](#testing)
