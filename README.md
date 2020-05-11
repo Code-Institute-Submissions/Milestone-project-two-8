@@ -262,7 +262,6 @@ This project would not have been possible without the following:
 * The photos used in this site were obtained from https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjJy6KX_-3nAhUIqYsKHaxzBsQQPAgH
 * icons were sourced from https://fontawesome.com/
 * images were taken from https://unsplash.com/
-* icons were sourced from https://fontawesome.com/
 * CSS and JavaScript libraries.
 * For my Mentor who guided me in building this website.
 
