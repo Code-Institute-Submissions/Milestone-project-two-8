@@ -76,30 +76,7 @@ AOS.init({
 	// Scrollax
    $.Scrollax();
 
-	var carousel = function() {
-		$('.carousel-testimony').owlCarousel({
-			center: true,
-			loop: true,
-			items:1,
-			margin: 30,
-			stagePadding: 0,
-			nav: false,
-			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
-			responsive:{
-				0:{
-					items: 1
-				},
-				600:{
-					items: 2
-				},
-				1000:{
-					items: 3
-				}
-			}
-		});
-
-	};
-	carousel();
+	
 
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
@@ -277,37 +254,7 @@ AOS.init({
 	OnePageNav();
 
 
-	// magnific popup
-	$('.image-popup').magnificPopup({
-    type: 'image',
-    closeOnContentClick: true,
-    closeBtnInside: false,
-    fixedContentPos: true,
-    mainClass: 'mfp-no-margins mfp-with-zoom', 
-     gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0,1] 
-    },
-    image: {
-      verticalFit: true
-    },
-    zoom: {
-      enabled: true,
-      duration: 300 
-    }
-  });
-
-  $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-    disableOn: 700,
-    type: 'iframe',
-    mainClass: 'mfp-fade',
-    removalDelay: 160,
-    preloader: false,
-
-    fixedContentPos: false
-  });
-
+	
 
   $('.checkin_date, .checkout_date').datepicker({
 	  'format': 'm/d/yyyy',
@@ -315,7 +262,7 @@ AOS.init({
 	});
 })(jQuery);
 
-//parallax 3D slider
+//parallax 3D slider hero image
 (function() {
   var rotatingSlider = function(selector, options) {
 
