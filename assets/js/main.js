@@ -12,15 +12,12 @@ function initMap() {
 }
 // end of maps 
 
-AOS.init({
-  duration: 800,
-  easing: 'slide'
-});
+
 
 (function ($) {
 
   "use strict";
-
+  
   var isMobile = {
     Android: function () {
       return navigator.userAgent.match(/Android/i);
@@ -40,6 +37,7 @@ AOS.init({
     any: function () {
       return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
+
   };
 
 
@@ -253,13 +251,6 @@ AOS.init({
   };
   OnePageNav();
 
-
-
-
-  $('.checkin_date, .checkout_date').datepicker({
-    'format': 'm/d/yyyy',
-    'autoclose': true
-  });
 })(jQuery);
 
 //parallax 3D slider hero image
