@@ -29,8 +29,8 @@ A live demo of the site can be found hosted on Github pages by following this li
  ## Project Description 💻
 
 This project is a five page HTML,CSS and Javascript travel website project, where users can explore different parts of World to travel. 
-1. The main page **Index page** welcome's you with colourful navigation , good typography, 3D image slider as hero images , travelers can explore adventures, offers, places to explore ,testimony of clients and can know more about the **Destination-travel agency** with more helpful footer.
-2. The second page **About Us** has more information about **Destination-Travel agency** where you can know what we provide ,history of agency,adventures we offer to clients ,successfull tours ,newsletter to hear more from us with our clients testimony and informative footer.
+1. The main page **Index page** welcome's you with colourful navigation , good typography, 3D image slider as hero images , travelers can explore adventures, offers, places to explore ,testimony of clients and can know more about the **Destinations-travel agency** with more helpful footer.
+2. The second page **About Us** has more information about **Destinations-Travel agency** where you can know what we provide ,history of agency,adventures we offer to clients ,successfull tours ,newsletter to hear more from us with our clients testimony and informative footer.
 3. The third page **Vacation**  users can explore different places around world to travel , can choose best deals ,can choose more travel options with days and prices and ends with informative footer.
 4. The fourth page **Contact Us** users can view  address ,contact number with Email address represented with icons , a clear map and users can also reach us with their name ,Email and send us message !
 5. The fifth page **Book Now** gives users to choose destination, favourite activities with a check-in and check-out dates and also a price range slider where users can select price to book a trip .
@@ -73,7 +73,7 @@ To complete this project I have used a variety of front end technologies.
 This project has a few interesting features that I feel need special mention.
 
 * Responsive Navigation Bar: The navigation bar is sticky and  changes to a dropdown menu in smaller screens.
-* Navbar Background colour: Initially the navigation bar doesn't have any colour. As the user scrolls down the page the navigation bar gets a background colour applied to it. By doing this it allows the navigation links to remain visible and not get obscured by the lighter colours on some of the section backgrounds.
+* Navbar Background colour: Initially the navigation bar doesn't have any colour. As the user scrolls down the page the navigation bar     gets a background colour applied to it. By doing this it allows the navigation links to remain visible and not get obscured by the     lighter colours on some of the section backgrounds.
 * Image slider : 3D imageslider as a hero image on index page takes users action on rotating images created by using JS
 * Images:  The  images on all pages are responsive and draws users attention.
 * Responsive travel cards: The travelcards in  Vacation page  are designed to draw attention of users with eye catching backgrounds ,images and offers users can choose to travel.
